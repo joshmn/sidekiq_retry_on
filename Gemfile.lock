@@ -1,0 +1,42 @@
+PATH
+  remote: .
+  specs:
+    sidekiq_retry_on (0.1.0)
+      sidekiq
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    connection_pool (2.2.3)
+    diff-lcs (1.4.4)
+    rack (2.2.3)
+    rake (12.3.3)
+    redis (4.2.2)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.0)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.0)
+    sidekiq (6.1.2)
+      connection_pool (>= 2.2.2)
+      rack (~> 2.0)
+      redis (>= 4.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake (~> 12.0)
+  rspec (~> 3.0)
+  sidekiq_retry_on!
+
+BUNDLED WITH
+   2.1.4
