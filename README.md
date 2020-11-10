@@ -20,7 +20,7 @@ There are two ways of invoking conditional retries.
 
 ### Using an array of errors
 
-```
+```ruby 
 class MyWorker
   include Sidekiq::Worker
   include Sidekiq::RetryOn::Worker
@@ -37,7 +37,7 @@ end
 ### Using a block
 
 
-```
+```ruby 
 class MyWorker
   include Sidekiq::Worker
   include Sidekiq::RetryOn::Worker
